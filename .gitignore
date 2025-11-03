@@ -25,3 +25,4 @@ dist-ssr
 
 #files too big
 src/assets/SURA.gif
+.vercel
