@@ -1,5 +1,12 @@
 import headshotIMG from "./assets/Headshot.png";
 import logoIMG from "./assets/logo.png";
+import suraThumbnail from "./assets/SURA thumbnail.png";
+import shapeshifterPortrait from "./assets/shapeshifter_portrait.png";
+import duquesneIMG from "./assets/duquesne.png";
+import linkedInGIF from "./assets/LinkedIn.gif";
+import emailGIF from "./assets/Email.gif";
+import githubGIF from "./assets/Github.gif";
+
 import "./App.css";
 
 export function Navigator() {
@@ -228,7 +235,7 @@ export function Card1() {
       <section className="info-card-box">
         <div className="info-card-box-img-thumbnail">
           <a href="https://jesscai06.github.io/Pittsburgh-Crash-Heat-Map-2025/">
-            <img src="src/assets/SURA thumbnail.png"></img>
+            <img src={suraThumbnail}></img>
           </a>
         </div>
         <div className="info-card-box-summary">
@@ -367,7 +374,7 @@ export function Card2() {
       <section className="info-card-box">
         <div className="info-card-box-img-thumbnail">
           <a href="https://github.com/JessCai06/Shapeshifter/tree/main">
-            <img src="src/assets/shapeshifter_portrait.png"></img>
+            <img src={shapeshifterPortrait}></img>
           </a>
         </div>
         <div className="info-card-box-summary">
@@ -496,7 +503,7 @@ export function Card3() {
       <section className="info-card-box">
         <div className="info-card-box-img-thumbnail">
           <a href="https://github.com/JessCai06/Duquesne-Incline">
-            <img src="src/assets/duquesne.png"></img>
+            <img src={duquesneIMG}></img>
           </a>
         </div>
         <div className="info-card-box-summary">
@@ -643,21 +650,21 @@ export function MyLinks() {
       <section className="Footer">
         <a href="https://www.linkedin.com/in/jessica-cai006/" target="_blank">
           <img
-            src="src\assets\LinkedIn.gif"
+            src={linkedInGIF}
             className="iconAnimations"
             alt="linked in animation"
           />
         </a>
         <a href="mailto:jesscai006@gmail.com" target="_blank">
           <img
-            src="src\assets\Email.gif"
+            src={emailGIF}
             className="iconAnimations"
             alt="email animation"
           />
         </a>
         <a href="https://github.com/JessCai06" target="_blank">
           <img
-            src="src\assets\Github.gif"
+            src={githubGIF}
             className="iconAnimations"
             alt="github animation"
           />
